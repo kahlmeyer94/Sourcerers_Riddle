@@ -864,7 +864,7 @@ def main(lvl_manager):
 
     w, h = screen.get_size()  # adapt to screen resolution
     config_dict = create_config(w, h, h//7)
-    pygame.display.set_caption("Sourcerer's Riddle")
+    pygame.display.set_caption("Sorcerer's Riddle")
     clock = pygame.time.Clock()
 
     # load sounds
